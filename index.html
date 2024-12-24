@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Introduction Page</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,6 +11,36 @@
       padding: 0;
       background: linear-gradient(to right, #6a11cb, #2575fc);
       color: white;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 10px 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
     }
 
     section {
@@ -21,156 +51,52 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
-    h2 {
+    section h2 {
       text-align: center;
-      font-size: 24px;
       margin-bottom: 15px;
     }
 
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    ul li {
-      margin: 10px 0;
-      font-size: 18px;
-    }
-
-    a {
-      color: #ffcc00;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 10px;
-      font-size: 18px;
-    }
-
-    table th, table td {
-      padding: 10px;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      text-align: left;
-    }
-
-    table th {
-      background: rgba(255, 255, 255, 0.2);
-    }
-
-    blockquote {
-      margin: 20px auto;
-      padding: 20px;
-      font-style: italic;
-      text-align: center;
-      background: rgba(255, 255, 255, 0.2);
-      border-left: 5px solid #ffcc00;
-      border-radius: 5px;
-    }
-
     @media (max-width: 768px) {
-      section {
-        margin: 10px;
-        padding: 15px;
+      nav a {
+        font-size: 1rem;
+        margin: 0 10px;
       }
 
-      h2 {
-        font-size: 20px;
-      }
-
-      ul li, table th, table td {
-        font-size: 16px;
+      header h1 {
+        font-size: 2rem;
       }
     }
 
     @media (max-width: 480px) {
-      h2 {
-        font-size: 18px;
+      nav a {
+        font-size: 0.9rem;
+        margin: 0 5px;
       }
 
-      ul li, table th, table td {
-        font-size: 14px;
-      }
-
-      table {
-        font-size: 14px;
+      header h1 {
+        font-size: 1.8rem;
       }
     }
   </style>
 </head>
 <body>
 
-<section>
-  <h2>🚀 Skills</h2>
-  <ul>
-    <li><strong>Programming Languages:</strong> C++, Python, JavaScript</li>
-    <li><strong>Core Concepts:</strong> Data Structures and Algorithms</li>
-    <li><strong>Web Development:</strong> React.js, Node.js</li>
-  </ul>
-</section>
+<header>
+  <h1>Introduction Page</h1>
+</header>
+
+<nav>
+  <a href="portfolio.html" target="_blank">My Portfolio</a>
+  <a href="teaminfo.html" target="_blank">Team Information</a>
+  <a href="projectoverview.html" target="_blank">Project Overview</a>
+  <a href="coursereflections.html" target="_blank">Course Reflections</a>
+  <a href="projectreflections.html" target="_blank">Project Reflection</a>
+</nav>
 
 <section>
-  <h2>🌐 Find Me Online</h2>
-  <ul>
-    <li><a href="https://github.com/your-github-username" target="_blank">GitHub</a></li>
-    <li><a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
-  </ul>
+  <h2>Welcome to My Project</h2>
+  <p>This page serves as the central hub for navigating my project, which focuses on creating a smart city design for Chandigarh. Use the navigation links above to explore various aspects of the project, including the portfolio, team information, project overview, reflections, and more.</p>
 </section>
-
-<section>
-  <h2>Portfolio Topic</h2>
-  <table>
-    <tr>
-      <th>Details</th>
-      <th>Information</th>
-    </tr>
-    <tr>
-      <td>Course Name</td>
-      <td>Design Analysis and Algorithms</td>
-    </tr>
-    <tr>
-      <td>Course Code</td>
-      <td>24ECSC205</td>
-    </tr>
-    <tr>
-      <td>Name</td>
-      <td>Puneet B Gadade</td>
-    </tr>
-    <tr>
-      <td>SRN</td>
-      <td>O1FE23BCS169</td>
-    </tr>
-    <tr>
-      <td>Course Instructor</td>
-      <td>Prof. Arundati A</td>
-    </tr>
-    <tr>
-      <td>University</td>
-      <td>KLE Technological University</td>
-    </tr>
-    <tr>
-      <td>Portfolio Topic/Domain</td>
-      <td>Smart City Design</td>
-    </tr>
-    <tr>
-      <td>Proposed City</td>
-      <td>Chandigarh City</td>
-    </tr>
-    <tr>
-      <td>Team Information</td>
-      <td><a href="https://Puneetgadade12345.github.io/CHANDIGARH/teaminfo.html" target="_blank">Team Information</a></td>
-    </tr>
-  </table>
-</section>
-
-<blockquote>
-  “The only way to do great work is to love what you do.” – <em>Steve Jobs</em>
-</blockquote>
 
 </body>
 </html>
